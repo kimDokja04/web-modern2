@@ -1,0 +1,32 @@
+/* src/App.css */
+body {
+  /* Atur latar belakang keseluruhan halaman menjadi gelap */
+  background-color: #222; 
+  color: white; /* Atur teks global (di luar demo section) menjadi putih */
+}
+
+.app {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.demo-section {
+  margin: 30px 0;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  
+  /* Atur latar belakang demo section menjadi putih */
+  background: white; 
+  /* Atur semua teks di dalam demo section menjadi hitam */
+  color: black; 
+}
+
+.demo-section h2 {
+  color: #333;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 10px;
+  margin-top: 0;
+}
