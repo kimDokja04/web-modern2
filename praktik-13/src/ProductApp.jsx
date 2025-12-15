@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
 // Ganti URL ini dengan alamat file api.php Anda
+// Pastikan php dev server dijalankan di folder backend, lalu gunakan api.php langsung
 const API_URL = 'http://localhost:8080/api.php';
 
 function ProductApp() {
